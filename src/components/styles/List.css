@@ -1,0 +1,39 @@
+.List{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: auto;
+  height: 100vh;
+}
+
+.loading{
+  -webkit-animation: rotation 2s infinite;
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+  z-index: 10;
+  margin: auto;
+  width: 20%;
+}
+.loading-container{
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+  z-index: 10;
+  background-color:rgba(100, 95, 95, 0.5);
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+
