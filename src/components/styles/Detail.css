@@ -1,0 +1,38 @@
+.detail-container{
+
+}
+
+.detail-image{
+  width: 15%;
+}
+
+.detail-image-row{
+  display: flex;
+}
+
+.detail-name{
+  display: flex;
+}
+
+.detail-abilities{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-abilities-label{
+}
+
+.detail-type-label{
+  width: 10%;
+  margin: 1%;
+}
+
+.detail-type{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-table-body{
+  display: flex;
+  flex-direction: column;
+}
